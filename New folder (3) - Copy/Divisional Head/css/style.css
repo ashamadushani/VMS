@@ -1,0 +1,179 @@
+.btnSide{
+	background-color: lightgray;
+	color:Blue; 
+	height:40px ;
+	font-size:14px;
+	
+
+
+}
+
+.navbar{
+	float:left;
+	border: 1px solid DarkGray;
+	border-radius: 5px; 
+	width:18%; 
+	padding:5px;  
+	background-color:lightgray; 
+	margin-left:10px; 
+	color:black;
+}
+.nav1{
+	font-size: 15px; 
+	color: #0050ff;
+	
+}
+
+.nav2{
+	font-size: 14px; 
+	margin-left:10px; 
+	color: #0080ff;
+}
+.nav3{
+	font-size: 13px; 
+	margin-left:20px; 
+	color: #0099ff;
+}
+
+table{
+	width:100%;
+}
+
+div.hc1 {
+
+    background-color: #BDC3C7;
+    width: 100%;
+    height: 65px;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+    color: black;
+
+}
+th{
+	text-align:center
+}
+td{
+padding: 5px;
+}
+input[type=submit]{
+	float:right;
+	margin-left:10px;
+
+}
+
+input[type=number]{
+    width: 60px;
+} 
+
+input[type=date]{
+    width: 180px;
+} 
+
+input[type=time]{
+	width: 130px;
+}
+
+
+
+/*
+	div.footer{
+	background-color: #6C7A89;
+    width: 100%;
+    height: 20px;
+   padding-top: 2px;}
+*/
+
+ div.footer {
+   position:absolute;
+   left:0px;
+   bottom:0px;
+   height:25px;
+   width:100%;
+   background:#6C7A89;
+   padding-top: 2px;
+   color: black;
+}
+
+ div.navfooter {
+   bottom:0px;
+   margin-top:100px;
+   height:25px;
+   width:100%;
+   background:#6C7A89;
+   padding-top: 2px;
+   color: black;
+}
+
+textarea {
+    resize: none;
+}
+
+
+li.color{
+
+   background:red;
+
+}
+/*
+#dec{
+	background-color: #b73333;
+	border-color: #b73333;
+}*/
+.btn-primary-red{
+	background-color: red;
+	color: white;
+}
+.btn-primary-red:hover,
+.btn-primary-red:focus {
+  background-color: #b73333;
+  background-position: 0 -15px;
+  color: white;
+}
+
+.btn-primary-red:active,
+.btn-primary-red.active {
+  background-color: red;
+  border-color: red;
+}
+
+.account{
+    color: blue;
+    text-indent: 1200px;
+}
+.contain{
+	float:right;
+	width:80%;
+	
+
+}
+.contain1{
+	border: 1px solid DarkGray;
+	width:59%;
+	float:left; 
+	border-radius: 5px; 
+	padding:10px; 
+	background-color:lightgray; 
+}
+
+.chart{
+	border: 1px solid DarkGray;
+	border-radius: 5px;  
+	float:right;
+	width:40%;
+	padding:10px; 
+	background-color:lightgray;"
+}
+
+
+.contain2{
+	border: 1px solid DarkGray;
+	width:80%;
+	float:left; 
+	border-radius: 5px; 
+	padding:10px; 
+	background-color:lightgray; 
+}
+
+

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add User</title>
+</head>
+
+
+
+<script>
+var list = document.getElementById("ollist");
+list.style.display == "none";
+
+function openList1() {
+    var list = document.getElementById("ollist");
+
+    if (list.style.display == "none"){
+        list.style.display = "block";
+    }else{
+        list.style.display = "none";
+    }
+}
+</script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<div class=container-fluid>
+	<div class=row>
+		<div class=hc1>
+			<div class="col-md-12">
+			<img src="img/logo_cropped.png" width="250px" align="left">
+			<p>Logged in as Divitional head</p>
+			<a href="#" >LogOut </a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<body style="background-color:#DADFE1;" >
+
+
+<!-- <div class=container-fluid>
+	<div class=row>
+		<div class="col-md-12">
+			<p align="right">You are Logged in as Divitional head</p> 
+		</div>
+	</div>
+</div> -->
+<br><br>
+<div >
+
+
+<div class="navbar" >
+
+
+		<button type="button" class="btn btn-default btn-lg btnSide" aria-label ="Left Align" >
+			<span class="glyphicon glyphicon-home " aria-hidden="true"></span>
+			<a href="home.html" style=" margin-left:10px">  Home</a>
+
+	
+		</button><br>
+		<button type="button" class="btn btn-default btn-lg btnSide" aria-label ="Left Align" >
+			<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+			<a href="MakeRequest.html" style=" margin-left:10px">  Make Request</a>
+
+	
+		</button><br>
+		<button type="button" class="btn btn-default btn-lg btnSide" aria-label ="Left Align" >
+			<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+			<a href="ViewRequest.html" style=" margin-left:10px">  View Request</a>
+
+	
+		</button><br>
+		<button type="button" class="btn btn-default btn-lg btnSide" aria-label ="Left Align" >
+			<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+			<a href="CancelRequest.html" style=" margin-left:10px">  Cancel Request</a>
+
+	
+		</button><br>
+		<button type="button" class="btn btn-default btn-lg btnSide" aria-label ="Left Align" >
+			<span class="glyphicon glyphicon-cog" aria-hidden="true" ></span>
+			<a href="setting.html" style="margin-left:10px">  Setting</a>
+
+	
+		</button><br>
+		<br>
+		
+<nav>
+
+<ul class="nav">
+	    <li><a class ="nav nav1" href="#"  data-toggle="collapse" data-target="#submenu1" aria-expanded="false" >Request Management <span class="glyphicon glyphicon-chevron-down"></span></a>
+			<ul class="nav collapse" id="submenu1" role="menu" >
+				<li><a class="nav nav2" href="request_apprv.html" style="color: #0080ff;">Request Approve</a></li>
+				<li><a class="nav nav2" href="Recommend.html" style="color: #0080ff;">Recommend Request</a></li>
+			</ul>
+		</li>
+		 
+			 
+				 
+				 
+
+			
+	</ul>
+</nav>
+
+
+</div>
+
+
+   <div class="contain" >
+			<div class="contain1">
+	
+		<div style="border: 1px solid DarkGray;	border-radius: 5px;	width:48%; float:left;padding:10px;	background-color:white;">
+		<p align="center">Vehical 1</br></p>
+		<img src="van.png" width="100%" >
+		<p>No:NA-8428</br></p>
+		<p>Number of passenger:12</br></p>
+		<p>Vehical model:NISSAN URVAN</br></p>
+		<p>Driver name:</br></p>
+		<p>Driver number:</br></p>
+		</div>
+		<div style="border: 1px solid DarkGray;	border-radius: 5px;	width:48%; float:right;		padding:10px; 	background-color:white;">
+		<p align="center">Vehical 2</br></p>
+		<img src="van.png" width="100%" >
+		<p>No:Wp GF-5434</br></p>
+		<p>Number of passenger:15</br></p>
+		<p>Vehical model: TOYOTA HIACE</br></p>
+		<p>Driver name:</br></p>
+		<p>Driver number:</br></p>
+		</div>
+			
+		</div>
+
+
+
+
+<div class="chart">
+		<form align="center">
+		<input type="date" name="" >
+		</form>
+		<br><br>
+		<table border="1" width="100%">
+		<tr>
+		<td>
+		<table border="1" width="100%">
+		<tr>
+		<th style="width:25%;">Time</th>
+		<th>vehicle 1 State</th>
+		<th>vehicle 2 State</th>
+		</tr>
+		<tr>
+		<td>8.00-9.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<tr>
+		<td>9.00-10.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<tr>
+		<td>10.00-11.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<tr>
+		<td>11.00-12.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<tr>
+		<td>12.00-1.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<tr>
+		<td>1.00-2.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<td>2.00-3.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<td>3.00-4.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		<td>4.00-5.00</td>
+		<td> <input type="lable" name="initials" class="form-control"></td>
+		<td>  <input type="lable" name="initials" class="form-control"></td>
+		</tr>
+		</table>
+		</td>
+		</tr>
+	</table>
+	</div>
+  </div>
+</div>
+<br><br>
+</div>
+
+</body>
+</html>
+
+
+
+
+

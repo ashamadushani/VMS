@@ -1,0 +1,101 @@
+
+
+div.hc1 {
+    background-color: #BDC3C7;
+    width: 100%;
+    height: 65px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+    color: black;
+
+}
+td{
+padding: 5px;
+}
+
+input[type=number]{
+    width: 60px;
+} 
+
+input[type=date]{
+    width: 180px;
+} 
+
+input[type=time]{
+	width: 130px;
+}
+
+
+/*
+	div.footer{
+	background-color: #6C7A89;
+    width: 100%;
+    height: 20px;
+   padding-top: 2px;}
+*/
+
+ div.footer {
+   position:absolute;
+   left:0px;
+   bottom:0px;
+   height:25px;
+   width:100%;
+   background:#6C7A89;
+   padding-top: 2px;
+   color: black;
+}
+
+ div.navfooter {
+   bottom:0px;
+   height:25px;
+   width:100%;
+   background:#6C7A89;
+   padding-top: 2px;
+   color: black;
+}
+
+textarea {
+    resize: none;
+}
+
+
+li.color{
+
+   background:red;
+
+}
+/*
+#dec{
+	background-color: #b73333;
+	border-color: #b73333;
+}*/
+.btn-primary-red{
+	background-color: red;
+	color: white;
+}
+.btn-primary-red:hover,
+.btn-primary-red:focus {
+  background-color: #b73333;
+  background-position: 0 -15px;
+  color: white;
+}
+
+.btn-primary-red:active,
+.btn-primary-red.active {
+  background-color: red;
+  border-color: red;
+}
+
+.account{
+    color: blue;
+    text-indent: 1200px;
+}
+.contain{
+	margin-left:260px;
+	width:75%;
+	
+
+}
+
