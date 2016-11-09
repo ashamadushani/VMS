@@ -5,7 +5,11 @@
  */
 package com.qfix.vms.model;
 
+import java.io.Serializable;
+
+ 
 import java.sql.Date;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,20 +18,41 @@ import javax.persistence.Table;
 
 /**
  *
- * @author Qfix
+ * @author Tishan Madawa
  */
 @Entity
 @Table(name = "driver", catalog = "vms")
-public class Driver {
+public class Driver implements Serializable  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY )
+    
+    
+    private Integer ID;
+    
+    @Column(unique=true)
     private String empID;
-    private String name;;
+   
+    private String name;
+  
     private String licenceNo;
+    
     private String contactNo;
+   
     private String address;
+  
     private Date dateEmployed;
+    
+    
+    
+    
+    public int getID() {
+        return ID;
+    }
 
+    public void setID(Integer ID) {
+        this.ID = ID;
+    }
+    
     public String getEmpID() {
         return empID;
     }

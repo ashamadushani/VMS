@@ -68,6 +68,60 @@
                     </button>
                     <br><br>
 
+                    <nav>
+
+                    <ul class="nav">
+                                <li><a class ="nav" href="#"  data-toggle="collapse" data-target="#submenu1" aria-expanded="false" style="font-size: 15px; color: #0050ff;">Request Management <span class="glyphicon glyphicon-chevron-down"></span></a>
+                                            <ul class="nav collapse" id="submenu1" role="menu" style="font-size: 13px; margin-left:10px; color: #0080ff;">
+                                                    <li><a class="nav" href="request_apprv.html" style="color: #0080ff;">Request Approve</a></li>
+                                                    <li><a class="nav" href="Recommend.html" style="color: #0080ff;">Recommend Request</a></li>
+                                            </ul>
+                                    </li>
+                                    <li><a class ="nav" href="#"  data-toggle="collapse" data-target="#submenu3" aria-expanded="false" style="font-size: 15px; color: #0050ff;">User Management <span class="glyphicon glyphicon-chevron-down"></span></a>
+                                            <ul class="nav collapse" id="submenu3" role="menu" style="font-size: 13px; margin-left:10px; color: #0080ff;">        <li><a class="nav" href="addUser.html" style="color: #0080ff;">Add User</a></li>
+                                                    <li><a class="nav" href="addUser.html" style="color: #0080ff;">Add User</a></li>
+                                                    <li><a class="nav" href="driverView" style="color: #0080ff;">Driver</a></li>
+                                                    <li><a class="nav" href="addDriver" style="color: #0080ff;">Add Driver</a></li>
+                                                    <li><a class="nav" href="#" style="color: #0080ff;">Remove User</a></li>
+
+                                            </ul>
+                                    </li>
+                                    <li><a  class="nav" href="#"  data-toggle="collapse" data-target="#submenu2" aria-expanded="false" style="font-size: 15px; color: #0050ff;">Vehicle Management    <p class="glyphicon glyphicon-chevron-down"></p></a>
+                                            <ul class="nav collapse" id="submenu2" role="menu" style="font-size: 13px; margin-left:10px; color: #0080ff;">
+                                                    <li><a  class="nav" href="#"  data-toggle="collapse" data-target="#submenu4" aria-expanded="false" style="font-size: 14px; color: #0050ff;">Update Vehicle    <p class="glyphicon glyphicon-chevron-down"></p></a>
+                                                            <ul class="nav collapse" id="submenu4" role="menu" style="font-size: 13px; margin-left:15px; color: #0080ff;">
+                                                                    <li><a class="nav" href="reg_vehicle.html" style="color: #0080ff;">Register a Vehicle</a></li>
+                                                                    <li><a class="nav" href="Particulars_of_the_Vehicle.html" style="color: #0080ff;">Add Vehicle</a></li>
+                                                                    <li><a class="nav" href="remove_vehicle.html" style="color: #0080ff;">Remove Vehicle</a></li>
+
+                                                                    <li><a class="nav" href="Annual_Licence.html" style="color: #0080ff;">Annual Licence</a></li>
+                                                                    <li><a class="nav" href="ChagesOfDrivers.html" style="color: #0080ff;">Change of Drivers</a></li>
+                                                                    <li><a class="nav" href="custody.html" style="color: #0080ff;">Custody</a></li>
+                                                                    <li><a class="nav" href="Deficiencies.html" style="color: #0080ff;">Deficiencies</a></li>
+                                                                    <li><a class="nav" href="fue_lConsuption.html" style="color: #0080ff;">Fuel Consumption</a></li>
+                                                                    <li><a class="nav" href="Repairs.html" style="color: #0080ff;">Repairs</a></li>
+                                                                    <li><a class="nav" href="Repalacement.html" style="color: #0080ff;">Replacement</a></li>
+                                                                    <li><a class="nav" href="Running_Chart.html" style="color: #0080ff;">Running Chart</a></li>
+                                                                    <li><a class="nav" href="running_Chart2.html" style="color: #0080ff;">Running Chart 2</a></li>
+                                                                    <li><a class="nav" href="survicing.html" style="color: #0080ff;">Survicing</a></li>
+                                                                    <li><a class="nav" href="tools.html" style="color: #0080ff;">Tools</a></li>
+                                                                    <li><a class="nav" href="Transfer_of_Ownership.html" style="color: #0080ff;">Transfer of Ownership</a></li>
+                                                                    <li><a class="nav" href="Tyres.html" style="color: #0080ff;">Tyres</a></li>
+
+                                                            </ul>
+                                                    </li>
+                                            <li><a  class="nav" href="#"  data-toggle="collapse" data-target="#submenu5" aria-expanded="false" style="font-size: 14px; color: #0050ff;">Accident    <p class="glyphicon glyphicon-chevron-down"></p></a>
+                                                            <ul class="nav collapse" id="submenu5" role="menu" style="font-size: 13px; margin-left:15px; color: #0080ff;">
+                                                                    <li><a class="nav" href="accidents.html" style="color: #0080ff;">Accidents</a></li>
+                                                            </ul>
+
+
+                                                    </li>
+                                            </ul>
+                                    </li>
+                            </ul>
+                    </nav>
+
 
 
                 </div>
